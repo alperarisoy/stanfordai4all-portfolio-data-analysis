@@ -3,10 +3,10 @@
 # I used sample data here so the project can run without any external file.
 
 prices = {
-    "tech":   [100.0, 101.2, 100.7, 102.4, 103.1, 102.6, 104.0, 105.2],
-    "bank":   [72.0, 72.5, 72.1, 73.0, 73.4, 73.2, 74.1, 74.6],
+    "tech": [100.0, 101.2, 100.7, 102.4, 103.1, 102.6, 104.0, 105.2],
+    "bank": [72.0, 72.5, 72.1, 73.0, 73.4, 73.2, 74.1, 74.6],
     "energy": [56.0, 55.6, 56.4, 57.2, 56.8, 57.5, 58.1, 57.9],
-    "bond":   [50.0, 50.1, 50.0, 50.2, 50.3, 50.2, 50.4, 50.5],
+    "bond": [50.0, 50.1, 50.0, 50.2, 50.3, 50.2, 50.4, 50.5],
 }
 
 
@@ -68,7 +68,6 @@ def calculate_portfolio(all_returns):
     }
 
     portfolio_returns = []
-
     number_of_days = len(all_returns["tech"])
 
     for day in range(number_of_days):
