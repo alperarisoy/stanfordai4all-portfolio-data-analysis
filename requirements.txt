@@ -1,9 +1,0 @@
-# Data Notes
-
-This project uses sample price data.
-
-When I first worked on the idea, I looked at public finance websites and Bloomberg-style market pages to understand how asset price data is displayed.
-
-I did not include direct copied data from those websites in this public version.
-
-The CSV file is used to show the analysis logic in a clean and shareable way.
